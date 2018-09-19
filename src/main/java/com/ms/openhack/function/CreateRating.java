@@ -57,7 +57,7 @@ public class CreateRating {
         Range<Integer> ratingRange = Range.between(0, 5);
         boolean validateRatingRange = ratingRange.contains(objRating.getRating());
         boolean finalValidation = isUserExist && isProductExist && validateRatingRange;
-        context.getLogger().info("FINAL VALIDATION: "+finalValidation);
+        context.getLogger().info("Final Validation: "+finalValidation);
         if(finalValidation) {
             SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             UUID guid = UUID.randomUUID();
@@ -65,7 +65,7 @@ public class CreateRating {
             String timestamp = formatter.format(date);
             objRating.setId(guid.toString());
             objRating.setTimestamp(timestamp);
-            context.getLogger().info("GSO:"+gson.toJson(objRating));
+            context.getLogger().info("JSON:"+gson.toJson(objRating));
             documentContent = gson.toJson(objRating);
             document.setValue(documentContent);
 
