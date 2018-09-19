@@ -65,7 +65,7 @@ public class CreateRating {
             String timestamp = formatter.format(date);
             objRating.setId(guid.toString());
             objRating.setTimestamp(timestamp);
-            context.getLogger().info("GSO:"+gson.toJson(objRating));
+            context.getLogger().info("JSON:"+gson.toJson(objRating));
             documentContent = gson.toJson(objRating);
             document.setValue(documentContent);
 
