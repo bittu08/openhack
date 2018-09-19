@@ -1,0 +1,18 @@
+{
+  "scriptFile" : "../openhack-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.ms.openhack.function.Products.run",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "name" : "req",
+    "direction" : "in",
+    "route" : "products/{productId}",
+    "webHookType" : "NONE",
+    "authLevel" : "anonymous",
+    "methods" : [ "GET", "POST" ]
+  }, {
+    "type" : "http",
+    "name" : "$return",
+    "direction" : "out"
+  } ],
+  "disabled" : false
+}

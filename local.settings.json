@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=4acc2e9ab84b45dab02c;AccountKey=U7rsv4DpAvO6HFWPtmZ+5jgpcDu2zjqc3sncDD6GWcuq5IBJIwFcHuWaAJtzl8H9K4dVkMdGSPYiDuABsIHuNg==",
+    "FUNCTIONS_WORKER_RUNTIME": "java",
+    "AzureCosmosDBConnectionString": "AccountEndpoint=https://openhack.documents.azure.com:443/;AccountKey=GWGt2fOEjo0L1qQPQwISLYRHkK8zIRo3hN0Mizk3EIUfA6Ah9KVvZIR12uG36UfvmwTMd8cvR2u2eQr3l9wSLQ==;",
+    "FUNCTIONS_EXTENSION_VERSION": "2.0.12095.0",
+    "WEBSITE_CONTENTSHARE": "openhack-2018091810540988951325",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=4acc2e9ab84b45dab02c;AccountKey=U7rsv4DpAvO6HFWPtmZ+5jgpcDu2zjqc3sncDD6GWcuq5IBJIwFcHuWaAJtzl8H9K4dVkMdGSPYiDuABsIHuNg==",
+//    "APPINSIGHTS_INSTRUMENTATIONKEY": "16e24cce-376d-4fe8-b4a5-be9228a74321",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=4acc2e9ab84b45dab02c;AccountKey=U7rsv4DpAvO6HFWPtmZ+5jgpcDu2zjqc3sncDD6GWcuq5IBJIwFcHuWaAJtzl8H9K4dVkMdGSPYiDuABsIHuNg=="
+  },
+  "ConnectionStrings": {}
+}

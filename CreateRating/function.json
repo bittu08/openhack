@@ -1,0 +1,25 @@
+{
+  "scriptFile" : "../openhack-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.ms.openhack.function.CreateRating.HttpTriggerJava",
+  "bindings" : [ {
+    "type" : "cosmosdb",
+    "name" : "items",
+    "direction" : "out",
+    "databaseName" : "openhackdb",
+    "collectionName" : "openhackcollection",
+    "connectionStringSetting" : "AzureCosmosDBConnectionString",
+    "createIfNotExists" : true
+  }, {
+    "type" : "httpTrigger",
+    "name" : "req",
+    "direction" : "in",
+    "webHookType" : "NONE",
+    "authLevel" : "anonymous",
+    "methods" : [ "GET", "POST" ]
+  }, {
+    "type" : "http",
+    "name" : "$return",
+    "direction" : "out"
+  } ],
+  "disabled" : false
+}

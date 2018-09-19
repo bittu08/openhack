@@ -1,0 +1,17 @@
+{
+  "scriptFile" : "../openhack-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.ms.openhack.function.GetRatings.HttpTriggerJava",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "name" : "req",
+    "direction" : "in",
+    "webHookType" : "NONE",
+    "authLevel" : "anonymous",
+    "methods" : [ "GET" ]
+  }, {
+    "type" : "http",
+    "name" : "$return",
+    "direction" : "out"
+  } ],
+  "disabled" : false
+}
